@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>短讯# 文章分类 on theUnpublished</title>
+    <link>http://localhost:1313/theUnpublished/categories/%E7%9F%AD%E8%AE%AF%23-%E6%96%87%E7%AB%A0%E5%88%86%E7%B1%BB/</link>
+    <description>Recent Posts in 短讯# 文章分类 on theUnpublished</description>
+    <generator>Hugo 0.147.5</generator>
+    <language>en</language>
+    <managingEditor>小林</managingEditor>
+    
+      <webMaster>小林</webMaster>
+    <lastBuildDate>Tue, 27 May 2025 08:07:53 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/theUnpublished/categories/%E7%9F%AD%E8%AE%AF%23-%E6%96%87%E7%AB%A0%E5%88%86%E7%B1%BB/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>阶段记</title>
+      <link>http://localhost:1313/theUnpublished/post/%E9%98%B6%E6%AE%B5%E8%AE%B0/</link>
+      <pubDate>Wed, 27 Sep 2023 23:43:55 +0000</pubDate>
+      <author>小林</author>
+      <guid>http://localhost:1313/theUnpublished/post/%E9%98%B6%E6%AE%B5%E8%AE%B0/</guid>
+      <description></description>
+      
+    </item>
+  </channel>
+</rss>

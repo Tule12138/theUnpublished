@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://localhost:1313/hugo-brewm/sitemap.xml
+Sitemap: https://tule12138.github.io/theUnpublished/sitemap.xml
