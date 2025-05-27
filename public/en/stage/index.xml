@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Stage on theUnpublished</title>
-    <link>http://localhost:1313/hugo-brewm/en/stage/</link>
+    <link>http://localhost:1313/theUnpublished/en/stage/</link>
     <description>Recent Posts in Stage on theUnpublished</description>
     <generator>Hugo 0.147.5</generator>
     <language>en</language>
     <managingEditor>小林</managingEditor>
     
       <webMaster>小林</webMaster>
-    <lastBuildDate>Mon, 26 May 2025 21:59:27 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/hugo-brewm/en/stage/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 26 May 2025 22:59:53 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/theUnpublished/en/stage/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

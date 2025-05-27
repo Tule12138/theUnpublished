@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Configuration on theUnpublished</title>
+    <link>http://localhost:1313/theUnpublished/tags/configuration/</link>
+    <description>Recent Posts in Configuration on theUnpublished</description>
+    <generator>Hugo 0.147.5</generator>
+    <language>en</language>
+    <managingEditor>小林</managingEditor>
+    
+      <webMaster>小林</webMaster>
+    <lastBuildDate>Tue, 27 May 2025 06:49:59 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/theUnpublished/tags/configuration/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Configure Discussion</title>
+      <link>http://localhost:1313/theUnpublished/posts/configure-discussion/</link>
+      <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
+      <author>小林</author>
+      <guid>http://localhost:1313/theUnpublished/posts/configure-discussion/</guid>
+      <description></description>
+      
+    </item>
+    <item>
+      <title>Configure Homepage Slides</title>
+      <link>http://localhost:1313/theUnpublished/posts/configure-slides/</link>
+      <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
+      <author>小林</author>
+      <guid>http://localhost:1313/theUnpublished/posts/configure-slides/</guid>
+      <description></description>
+      
+    </item>
+    <item>
+      <title>Configure Logo and Accent Color</title>
+      <link>http://localhost:1313/theUnpublished/posts/configure-logo-and-accent-color/</link>
+      <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
+      <author>小林</author>
+      <guid>http://localhost:1313/theUnpublished/posts/configure-logo-and-accent-color/</guid>
+      <description></description>
+      
+    </item>
+    <item>
+      <title>Configure Main Footer</title>
+      <link>http://localhost:1313/theUnpublished/posts/configure-main-footer/</link>
+      <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
+      <author>小林</author>
+      <guid>http://localhost:1313/theUnpublished/posts/configure-main-footer/</guid>
+      <description></description>
+      
+    </item>
+    <item>
+      <title>Configure Menu</title>
+      <link>http://localhost:1313/theUnpublished/posts/configure-menu/</link>
+      <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
+      <author>小林</author>
+      <guid>http://localhost:1313/theUnpublished/posts/configure-menu/</guid>
+      <description></description>
+      
+    </item>
+    <item>
+      <title>Configure Pagefind</title>
+      <link>http://localhost:1313/theUnpublished/posts/configure-pagefind/</link>
+      <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
+      <author>小林</author>
+      <guid>http://localhost:1313/theUnpublished/posts/configure-pagefind/</guid>
+      <description></description>
+      
+    </item>
+  </channel>
+</rss>

@@ -1,5 +1,5 @@
 ## Base URL for the site，后续可能要改
-baseURL = 'https://foxihd.github.io/hugo-brewm/'
+baseURL = 'https://tule12138.github.io/theUnpublished/'
 ## Site title 网站标题
 title = 'theUnpublished'
 ## Use hugo-brewm theme
@@ -10,12 +10,12 @@ enableGitInfo = true
 canonifyURLs = true
 ## Default language for content 语言
 defaultContentLanguage = 'en'
-## Put default language in subdirectory
-defaultContentLanguageInSubdir = true
+## Put default language in subdirectory 必须在语言子页面下寻找？
+defaultContentLanguageInSubdir = false
 ## Show placeholder for missing translations
 enableMissingTranslationPlaceholders = true
 ## Use sections for main menu
-# sectionPagesMenu = 'main'
+sectionPagesMenu = 'main'
 ## Files to ignore when building site
 ignoreFiles = [ '\.redacted', '\.old','\.bak', '\.tmp', '\.swp', '\.DS_Store']
 ## Errors to ignore in logs
@@ -89,11 +89,11 @@ enableRobotsTXT = true
 ## Taxonomy configuration 标签与分类设置
 [taxonomies]
     ## Category taxonomy
-    category = "归档"
+    category = "categories"
     ## Tag taxonomy
-    tag = "标签"
+    tag = "tags"
     ## Series taxonomy
-    series = "系列"
+    series = "series"
     ## Stage taxonomy
     stage = "stage"
     ## Author taxonomy
@@ -169,7 +169,7 @@ enableRobotsTXT = true
         ## Enable taxonomy listing carousel
         disableListing = false
         ## Select taxonomy listing to be featured
-        featuredListing = ['categories', 'series']
+        featuredListing = ['categories', 'series','posts']
 
     ## Post display settings 文章显示的基本设置
     [params.posts]
