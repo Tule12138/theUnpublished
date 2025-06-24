@@ -17,12 +17,11 @@ git commit -m "更新readme"
 git push origin main
 ```
 
-发布静态文件 (public) 到 gh-pages 分支：
+发布静态文件 (public) 到 gh-pages 分支目前使用 ghp-import
+
 ```
-cd public
-git add .
-git commit -m "mm/dd更新"
-git push origin main
+hugo
+ghp-import -n -p public
 ```
 
 ## 状况与解决
