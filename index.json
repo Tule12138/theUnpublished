@@ -1,6 +1,11 @@
 
 {
     "nodes": [{
+                "id": "2da8e59f377105e16a500ffacca6a247",
+                "title": "在克莱因瓶的哪一面生活",
+                "permalink": "https://tule12138.github.io/theUnpublished/post/%E5%9C%A8%E5%85%8B%E8%8E%B1%E5%9B%A0%E7%93%B6%E7%9A%84%E5%93%AA%E4%B8%80%E9%9D%A2%E7%94%9F%E6%B4%BB/",
+                "type": "post"
+            },{
                 "id": "5c18cf946f8f51b5a5112dc401cafde3",
                 "title": "Macbook 录屏声音处理",
                 "permalink": "https://tule12138.github.io/theUnpublished/post/macbook%E5%BD%95%E5%B1%8F%E5%A3%B0%E9%9F%B3%E5%A4%84%E7%90%86/",
@@ -364,6 +369,15 @@
                         },
     ],
     "links": [
+            
+                    {
+                        "source": "2da8e59f377105e16a500ffacca6a247",
+                        "target": "categories-随笔",
+                    },
+                    {
+                        "source": "2da8e59f377105e16a500ffacca6a247",
+                        "target": "tags-个人史",
+                    },
             
                     {
                         "source": "5c18cf946f8f51b5a5112dc401cafde3",
