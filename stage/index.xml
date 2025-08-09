@@ -9,8 +9,17 @@
     <managingEditor>小林</managingEditor>
     
       <webMaster>小林</webMaster>
-    <lastBuildDate>Sat, 09 Aug 2025 16:57:59 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 09 Aug 2025 17:01:10 +0100</lastBuildDate>
     <atom:link href="https://tule12138.github.io/theUnpublished/stage/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>待修订</title>
+      <link>https://tule12138.github.io/theUnpublished/stage/%E5%BE%85%E4%BF%AE%E8%AE%A2/</link>
+      <pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate>
+      <author>小林</author>
+      <guid>https://tule12138.github.io/theUnpublished/stage/%E5%BE%85%E4%BF%AE%E8%AE%A2/</guid>
+      <description></description>
+      
+    </item>
     <item>
       <title>完稿</title>
       <link>https://tule12138.github.io/theUnpublished/stage/%E5%AE%8C%E7%A8%BF/</link>
@@ -26,15 +35,6 @@
       <pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate>
       <author>小林</author>
       <guid>https://tule12138.github.io/theUnpublished/stage/%E8%8D%89%E7%A8%BF/</guid>
-      <description></description>
-      
-    </item>
-    <item>
-      <title>待修订</title>
-      <link>https://tule12138.github.io/theUnpublished/stage/%E5%BE%85%E4%BF%AE%E8%AE%A2/</link>
-      <pubDate>Sat, 22 Mar 2025 00:00:00 +0000</pubDate>
-      <author>小林</author>
-      <guid>https://tule12138.github.io/theUnpublished/stage/%E5%BE%85%E4%BF%AE%E8%AE%A2/</guid>
       <description></description>
       
     </item>
