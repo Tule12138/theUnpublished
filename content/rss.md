@@ -11,4 +11,4 @@ RSS shortcodes allow you to integrate and display feeds from various sources lik
 
 Note that The Hugo Release News RSS feed listed below displays only titles since content descriptions are not included in the RSS feed xml.
 
-{{< rss url="https://gohugo.io/news/index.xml" >}}
+{{< rss url="https://tule12138.github.io/theUnpublished/index.xml" >}}
