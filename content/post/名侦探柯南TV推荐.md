@@ -2,7 +2,7 @@
 author = "小林"
 title = "名侦探柯南 TV 推荐"
 description = ""
-date = "2025-08-10"
+date = "2025-08-09"
 type = "post"
 draft = false
 translationKey = "history"
@@ -11,7 +11,7 @@ tags = ["番","名侦探柯南"]
 categories = ["后感"]
 stage = "待修订"
 history = [
-  {date = "2025-08-10", stage="带修订", author = "小林", reviewer = "", note = ""}
+  {date = "2025-08-09", stage="带修订", author = "小林", reviewer = "", note = ""}
 ]
 toot = ""
 +++
