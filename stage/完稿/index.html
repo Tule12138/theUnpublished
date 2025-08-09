@@ -28,10 +28,14 @@
     <meta property="og:url" content="https://tule12138.github.io/theUnpublished/stage/%E5%AE%8C%E7%A8%BF/" />
         <meta property="og:image" content="https://repository-images.githubusercontent.com/923527728/46a32a19-69ac-45b3-91a4-c4d299fb234b" />
     <meta property="og:site_name" content="theUnpublished" /><link rel="alternate" type="application/rss+xml" href="https://tule12138.github.io/theUnpublished/stage/%E5%AE%8C%E7%A8%BF/index.xml" title="theUnpublished" />
-    <!-- js.html --><script src="https://tule12138.github.io/theUnpublished/js/hugo-brewm.min.js"
-            integrity="sha384-kQnNpyfU4BDSjOYjkjuVdA8tiAQ/qnRKgYy1Rr43xJOk0QDspxIZrZxwWu5KSFTs" crossorigin="anonymous"
+    <!-- js.html -->
+
+<script src="https://tule12138.github.io/theUnpublished/js/hugo-brewm.min.js"
+            integrity="sha384-zouA7CpmNb/gx3lz2G4azvKsS1ZKJnHvV72/9lqO2hHiOsQfsgpB96wv47H43h8o" crossorigin="anonymous"
             defer></script><!-- css.html -->
-        <link rel="stylesheet" href="https://tule12138.github.io/theUnpublished/css/hugo-brewm.min.css" integrity="sha256-1RsJ5qa/N0TsXBn9iD3zdhGT1ZOxuCC&#43;Mef5seSMUXI=" crossorigin="anonymous">
+
+
+        <link rel="stylesheet" href="https://tule12138.github.io/theUnpublished/css/hugo-brewm.min.css" integrity="sha256-FrNcz6gS65xIUh3CCIvFhmP75yQ7SZFA2YF&#43;y&#43;/79dM=" crossorigin="anonymous">
 
     <!-- css/inline.html -->
     <style>
@@ -49,14 +53,14 @@
     </div>
     
     <nav aria-label="Bypass">
-        <a id="to-content" class="underline" href="#list-posts" aria-label="Skip to Main Content">
+        <a id="to-content" href="#list-posts" aria-label="Skip to Main Content">
             <span>Skip to Main Content</span>
             <kbd class="key" aria-hidden="true">c</kbd>
             <span class="screening" aria-hidden="true"></span>
         </a>
     </nav>
     
-        <a id="logo" href="https://tule12138.github.io/theUnpublished/" aria-label="theUnpublished">
+        <a id="logo" href="https://tule12138.github.io/theUnpublished/" aria-label="theUnpublished" aria-description="Homepage">
                 <!-- logotype.html --><svg id="logotype" xmlns="http://www.w3.org/2000/svg" version="1.1" width="392pt" aria-label="theUnpublished">
             <text id="logotype__text" y="19.5pt" x="0">theUnpublished</text>
         </svg>
@@ -69,14 +73,14 @@
         </summary>
         <nav tabindex="-1" aria-label="Top">
             <!-- menu.html -->
-<details id="has-main-menu" class="presentation" open>
-    <summary  class="hide"  aria-label="Main Menu">
-        <span>Main Menu</span>
-    </summary>
-        
-        <nav id="main-menu" aria-label="Main Menu">
-            <ul class="l1   has-childfree " role="presentation" tabindex="-1" >
-                
+    <details id="has-main-menu" class="presentation" open>
+        <summary  class="hide"  aria-label="Main Menu">
+            <span>Main Menu</span>
+        </summary>
+            
+            <nav id="main-menu" aria-label="Main Menu">
+                <ul class="l1   has-childfree " role="presentation" tabindex="-1" >
+                    
     
         <li role="presentation" >
     <a   class=on-deck href=https://tule12138.github.io/theUnpublished/post/>
@@ -92,13 +96,13 @@
                 这里</span>
     </a>
         </li>
-            </ul>
-        </nav>
-</details>
+                </ul>
+            </nav>
+    </details>
             <!-- search.html -->
 <details id="has-search" class="presentation js-details" name="on-deck">
-    <summary class="on-deck" accesskey="q" aria-keyshortcuts="q">
-        <span class="t t2">Search</span>
+    <summary class="on-deck srm" accesskey="q" aria-labelledby="search-label" aria-keyshortcuts="q">
+        <span id="search-label" class="t t2 srt">Search</span>
     </summary>
     
         <!-- pagefind.html -->
@@ -117,6 +121,11 @@
                         placeholder: "Search"
                     }
                 });
+                
+                const pFInput = document.querySelector('.pagefind-ui__search-input');
+                if (pFInput) {
+                    pFInput.setAttribute('aria-label', pFInput.getAttribute('placeholder'));
+                }
                 pageFindInitialized = true;
                 document.removeEventListener('DOMContentLoaded', initPageFind);
             }
@@ -142,6 +151,7 @@
         </noscript>
     
 </details>
+
             <!-- menu.html -->
             <!-- i18n.html -->
 
@@ -156,28 +166,22 @@
         <!-- main/header.html -->
         <header class="pagewidth">
             
-            <!-- menu.html -->
-    <menu role="presentation">
-        <li>
-            <a id="print-button" class="hide" href="javascript:window.print()" title="Print" role="button" aria-label="Print">
-                <span class="t" role="tooltip">Print</span>
-            </a>
-        </li>
-        <li>
-            <a id="navigatorShare" href="javascript:navigator.share({title: document.title, url: window.location.href})" title="Share" role="button" aria-label="Share">
-                <span class="t" role="tooltip">Share</span>
-            </a>
-        </li>
-        <li>
-            <a id="copyPermalink" class="hide" href="javascript:navigator.clipboard.writeText(window.location.href)" title="Copy URL" role="button" aria-label="Copy URL">
-                <span id="copy" class="t" role="tooltip">Copy URL</span>
-                <span id="isCopying" style="display: none;">Copying...</span>
-                <span id="copyText" style="display: none;">Copy URL</span>
-            </a>
-        </li>
+                <!-- menu.html -->
+    <menu class="srm">
+        <a id="print-button" class="hide" href="javascript:window.print()" role="button" aria-label="Print">
+            <span class="t srt" role="tooltip">Print</span>
+        </a>
+        <a id="navigatorShare" href="javascript:navigator.share({title: document.title, url: window.location.href})" role="button" aria-label="Share">
+            <span class="t srt" role="tooltip">Share</span>
+        </a>
+        <a id="copyPermalink" class="hide" href="javascript:navigator.clipboard.writeText(window.location.href)" role="button" aria-label="Copy URL">
+            <span id="copy" class="t srt" role="tooltip">Copy URL</span>
+            <span id="isCopying" style="display: none;">Copying...</span>
+            <span id="copyText" style="display: none;">Copy URL</span>
+        </a>
     </menu>
     <button id="back" class="hide" type="button" onclick="history.back();" aria-label="Go Back">
-        <span class="t" role="tooltip">Go Back</span>
+        <span class="t srt" role="tooltip">Go Back</span>
     </button>
             
                 <!-- nav.html -->
@@ -186,7 +190,7 @@
         <span>Breadcrumb</span>
     </summary>
         <nav aria-labelledby="breadcrumb">
-            <ul role="presentation" class="breadcrumb">
+            <ul role="presentation" class="breadcrumb ">
                     <!-- breadcrumb.html -->
         <li>
             <a href="https://tule12138.github.io/theUnpublished/stage/" aria-current="true">Stage
@@ -204,7 +208,7 @@
             
         </div>
         
-            
+        
             <section id="list-posts" class="pagewidth"  aria-labelledby="list-post-heading">
                 <header id="stage" class="section-title">
                     <strong id="list-post-heading">Posts on: <span class="stage">完稿</span>
@@ -233,14 +237,14 @@
         <time class="doc-publish-date" datetime="2025-07-21T00:00:00&#43;00:00" data-time-label="Published on">July 21, 2025</time>
     </div>
             </div>
-            <a href="https://tule12138.github.io/theUnpublished/post/%E5%9C%A8%E5%85%8B%E8%8E%B1%E5%9B%A0%E7%93%B6%E7%9A%84%E5%93%AA%E4%B8%80%E9%9D%A2%E7%94%9F%E6%B4%BB/" tabindex="-1">
+            <a href="https://tule12138.github.io/theUnpublished/post/%E5%9C%A8%E5%85%8B%E8%8E%B1%E5%9B%A0%E7%93%B6%E7%9A%84%E5%93%AA%E4%B8%80%E9%9D%A2%E7%94%9F%E6%B4%BB/" class="sr0" tabindex="-1" aria-describedby="desc-1">
                 <h1 id="title-1">在克莱因瓶的哪一面生活</h1>
             </a>
         </hgroup>
-        <a class="underline" href="https://tule12138.github.io/theUnpublished/post/%E5%9C%A8%E5%85%8B%E8%8E%B1%E5%9B%A0%E7%93%B6%E7%9A%84%E5%93%AA%E4%B8%80%E9%9D%A2%E7%94%9F%E6%B4%BB/" aria-label="在克莱因瓶的哪一面生活" aria-describedby="desc-1"></a>
+        <a class="sri" href="https://tule12138.github.io/theUnpublished/post/%E5%9C%A8%E5%85%8B%E8%8E%B1%E5%9B%A0%E7%93%B6%E7%9A%84%E5%93%AA%E4%B8%80%E9%9D%A2%E7%94%9F%E6%B4%BB/" aria-label="在克莱因瓶的哪一面生活" aria-describedby="desc-1"></a>
         
         <section class="has-cover">
-                <img class="flowlines" src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/14.svg" alt="" style="object-position: 78% 69%" loading="lazy">
+                <img class="flowlines" src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/14.svg" alt="" style="object-position: 17% 71%" loading="lazy">
             <div class="par" id="desc-1">乡愁是围城，围城是克莱因瓶。依赖着玻璃和城墙维系生活。
             </div>
         </section>
@@ -250,7 +254,7 @@
             </span>
             
                     <!-- terms.html -->
-    <ul class="rounded invert ldots" role="presentation">
+    <ul class="rounded invert" role="presentation">
             <li><a href="https://tule12138.github.io/theUnpublished/tags/%E4%B8%AA%E4%BA%BA%E5%8F%B2/" tabindex="-1">个人史</a></li>
     </ul>
         </footer>
@@ -277,14 +281,14 @@
         <time class="doc-publish-date" datetime="2025-03-29T00:00:00&#43;00:00" data-time-label="Published on">March 29, 2025</time>
     </div>
             </div>
-            <a href="https://tule12138.github.io/theUnpublished/post/macbook%E5%BD%95%E5%B1%8F%E5%A3%B0%E9%9F%B3%E5%A4%84%E7%90%86/" tabindex="-1">
+            <a href="https://tule12138.github.io/theUnpublished/post/macbook%E5%BD%95%E5%B1%8F%E5%A3%B0%E9%9F%B3%E5%A4%84%E7%90%86/" class="sr0" tabindex="-1" aria-describedby="desc-2">
                 <h1 id="title-2">Macbook 录屏声音处理</h1>
             </a>
         </hgroup>
-        <a class="underline" href="https://tule12138.github.io/theUnpublished/post/macbook%E5%BD%95%E5%B1%8F%E5%A3%B0%E9%9F%B3%E5%A4%84%E7%90%86/" aria-label="Macbook 录屏声音处理" aria-describedby="desc-2"></a>
+        <a class="sri" href="https://tule12138.github.io/theUnpublished/post/macbook%E5%BD%95%E5%B1%8F%E5%A3%B0%E9%9F%B3%E5%A4%84%E7%90%86/" aria-label="Macbook 录屏声音处理" aria-describedby="desc-2"></a>
         
         <section class="has-cover">
-                <img class="flowlines" src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/4.svg" alt="" style="object-position: 10% 60%" loading="lazy">
+                <img class="flowlines" src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/17.svg" alt="" style="object-position: 31% 59%" loading="lazy">
             <div class="par" id="desc-2">自用解决方案
             </div>
         </section>
@@ -294,7 +298,7 @@
             </span>
             
                     <!-- terms.html -->
-    <ul class="rounded invert ldots" role="presentation">
+    <ul class="rounded invert" role="presentation">
             <li><a href="https://tule12138.github.io/theUnpublished/tags/macbook/" tabindex="-1">Macbook</a></li>
             <li><a href="https://tule12138.github.io/theUnpublished/tags/%E5%B7%A5%E5%85%B7/" tabindex="-1">工具</a></li>
     </ul>
@@ -322,14 +326,14 @@
         <time class="doc-publish-date" datetime="2025-02-20T00:00:00&#43;00:00" data-time-label="Published on">February 20, 2025</time>
     </div>
             </div>
-            <a href="https://tule12138.github.io/theUnpublished/post/switch%E5%BD%95%E5%B1%8F%E5%AF%BC%E5%87%BA%E4%B8%8E%E5%A4%84%E7%90%86%E9%97%AE%E9%A2%98/" tabindex="-1">
+            <a href="https://tule12138.github.io/theUnpublished/post/switch%E5%BD%95%E5%B1%8F%E5%AF%BC%E5%87%BA%E4%B8%8E%E5%A4%84%E7%90%86%E9%97%AE%E9%A2%98/" class="sr0" tabindex="-1" aria-describedby="desc-3">
                 <h1 id="title-3">Switch 录屏导出与处理问题</h1>
             </a>
         </hgroup>
-        <a class="underline" href="https://tule12138.github.io/theUnpublished/post/switch%E5%BD%95%E5%B1%8F%E5%AF%BC%E5%87%BA%E4%B8%8E%E5%A4%84%E7%90%86%E9%97%AE%E9%A2%98/" aria-label="Switch 录屏导出与处理问题" aria-describedby="desc-3"></a>
+        <a class="sri" href="https://tule12138.github.io/theUnpublished/post/switch%E5%BD%95%E5%B1%8F%E5%AF%BC%E5%87%BA%E4%B8%8E%E5%A4%84%E7%90%86%E9%97%AE%E9%A2%98/" aria-label="Switch 录屏导出与处理问题" aria-describedby="desc-3"></a>
         
         <section class="has-cover">
-                <img class="flowlines" src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/8.svg" alt="" style="object-position: 13% 70%" loading="lazy">
+                <img class="flowlines" src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/4.svg" alt="" style="object-position: 48% 64%" loading="lazy">
             <div class="par" id="desc-3">非常小的一个问题，非常小的一个解决方案。
             </div>
         </section>
@@ -339,7 +343,7 @@
             </span>
             
                     <!-- terms.html -->
-    <ul class="rounded invert ldots" role="presentation">
+    <ul class="rounded invert" role="presentation">
             <li><a href="https://tule12138.github.io/theUnpublished/tags/macbook/" tabindex="-1">Macbook</a></li>
             <li><a href="https://tule12138.github.io/theUnpublished/tags/%E6%B8%B8%E6%88%8F/" tabindex="-1">游戏</a></li>
             <li><a href="https://tule12138.github.io/theUnpublished/tags/switch/" tabindex="-1">Switch</a></li>
@@ -369,14 +373,14 @@
         <time class="doc-publish-date" datetime="2025-02-15T00:00:00&#43;00:00" data-time-label="Published on">February 15, 2025</time>
     </div>
             </div>
-            <a href="https://tule12138.github.io/theUnpublished/post/%E8%AE%B0%E8%B4%A6%E5%B7%A5%E5%85%B7%E6%BC%94%E5%8C%96%E5%BD%95/" tabindex="-1">
+            <a href="https://tule12138.github.io/theUnpublished/post/%E8%AE%B0%E8%B4%A6%E5%B7%A5%E5%85%B7%E6%BC%94%E5%8C%96%E5%BD%95/" class="sr0" tabindex="-1" aria-describedby="desc-4">
                 <h1 id="title-4">记账工具演化录</h1>
             </a>
         </hgroup>
-        <a class="underline" href="https://tule12138.github.io/theUnpublished/post/%E8%AE%B0%E8%B4%A6%E5%B7%A5%E5%85%B7%E6%BC%94%E5%8C%96%E5%BD%95/" aria-label="记账工具演化录" aria-describedby="desc-4"></a>
+        <a class="sri" href="https://tule12138.github.io/theUnpublished/post/%E8%AE%B0%E8%B4%A6%E5%B7%A5%E5%85%B7%E6%BC%94%E5%8C%96%E5%BD%95/" aria-label="记账工具演化录" aria-describedby="desc-4"></a>
         
         <section class="has-cover">
-                <img class="flowlines" src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/18.svg" alt="" style="object-position: 23% 62%" loading="lazy">
+                <img class="flowlines" src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/15.svg" alt="" style="object-position: 37% 12%" loading="lazy">
             <div class="par" id="desc-4">进度：离开 numbers
             </div>
         </section>
@@ -386,7 +390,7 @@
             </span>
             
                     <!-- terms.html -->
-    <ul class="rounded invert ldots" role="presentation">
+    <ul class="rounded invert" role="presentation">
             <li><a href="https://tule12138.github.io/theUnpublished/tags/%E5%B7%A5%E5%85%B7/" tabindex="-1">工具</a></li>
             <li><a href="https://tule12138.github.io/theUnpublished/tags/macbook/" tabindex="-1">Macbook</a></li>
             <li><a href="https://tule12138.github.io/theUnpublished/tags/%E7%94%9F%E6%B4%BB/" tabindex="-1">生活</a></li>
@@ -415,14 +419,14 @@
         <time class="doc-publish-date" datetime="2024-08-19T00:00:00&#43;00:00" data-time-label="Published on">August 19, 2024</time>
     </div>
             </div>
-            <a href="https://tule12138.github.io/theUnpublished/post/%E9%A3%9E%E6%84%9F%E5%88%B0/" tabindex="-1">
+            <a href="https://tule12138.github.io/theUnpublished/post/%E9%A3%9E%E6%84%9F%E5%88%B0/" class="sr0" tabindex="-1" aria-describedby="desc-5">
                 <h1 id="title-5">飞感到</h1>
             </a>
         </hgroup>
-        <a class="underline" href="https://tule12138.github.io/theUnpublished/post/%E9%A3%9E%E6%84%9F%E5%88%B0/" aria-label="飞感到" aria-describedby="desc-5"></a>
+        <a class="sri" href="https://tule12138.github.io/theUnpublished/post/%E9%A3%9E%E6%84%9F%E5%88%B0/" aria-label="飞感到" aria-describedby="desc-5"></a>
         
         <section class="has-cover">
-                <img class="flowlines" src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/13.svg" alt="" style="object-position: 46% 39%" loading="lazy">
+                <img class="flowlines" src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/8.svg" alt="" style="object-position: 33% 30%" loading="lazy">
             <div class="par" id="desc-5">飞感到它们不会再见面了。
             </div>
         </section>
@@ -432,7 +436,7 @@
             </span>
             
                     <!-- terms.html -->
-    <ul class="rounded invert ldots" role="presentation">
+    <ul class="rounded invert" role="presentation">
             <li><a href="https://tule12138.github.io/theUnpublished/tags/%E7%94%9F%E6%B4%BB/" tabindex="-1">生活</a></li>
     </ul>
         </footer>
@@ -459,14 +463,14 @@
         <time class="doc-publish-date" datetime="2024-04-23T00:00:00&#43;00:00" data-time-label="Published on">April 23, 2024</time>
     </div>
             </div>
-            <a href="https://tule12138.github.io/theUnpublished/post/%E7%AC%AC%E4%B8%80%E5%9C%BA%E9%9B%A8/" tabindex="-1">
+            <a href="https://tule12138.github.io/theUnpublished/post/%E7%AC%AC%E4%B8%80%E5%9C%BA%E9%9B%A8/" class="sr0" tabindex="-1" aria-describedby="desc-6">
                 <h1 id="title-6">第一场雨</h1>
             </a>
         </hgroup>
-        <a class="underline" href="https://tule12138.github.io/theUnpublished/post/%E7%AC%AC%E4%B8%80%E5%9C%BA%E9%9B%A8/" aria-label="第一场雨" aria-describedby="desc-6"></a>
+        <a class="sri" href="https://tule12138.github.io/theUnpublished/post/%E7%AC%AC%E4%B8%80%E5%9C%BA%E9%9B%A8/" aria-label="第一场雨" aria-describedby="desc-6"></a>
         
         <section class="has-cover">
-                <img class="flowlines" src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/5.svg" alt="" style="object-position: 65% 12%" loading="lazy">
+                <img class="flowlines" src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/2.svg" alt="" style="object-position: 55% 27%" loading="lazy">
             <div class="par" id="desc-6">十二岁，野子第一次梦见血。
             </div>
         </section>
@@ -476,7 +480,7 @@
             </span>
             
                     <!-- terms.html -->
-    <ul class="rounded invert ldots" role="presentation">
+    <ul class="rounded invert" role="presentation">
             <li><a href="https://tule12138.github.io/theUnpublished/tags/%E6%9C%88%E7%BB%8F/" tabindex="-1">月经</a></li>
     </ul>
         </footer>
@@ -503,14 +507,14 @@
         <time class="doc-publish-date" datetime="2024-04-13T00:00:00&#43;00:00" data-time-label="Published on">April 13, 2024</time>
     </div>
             </div>
-            <a href="https://tule12138.github.io/theUnpublished/post/%E9%A3%8E%E7%AD%9D%E4%BA%BA/" tabindex="-1">
+            <a href="https://tule12138.github.io/theUnpublished/post/%E9%A3%8E%E7%AD%9D%E4%BA%BA/" class="sr0" tabindex="-1" aria-describedby="desc-7">
                 <h1 id="title-7">风筝人</h1>
             </a>
         </hgroup>
-        <a class="underline" href="https://tule12138.github.io/theUnpublished/post/%E9%A3%8E%E7%AD%9D%E4%BA%BA/" aria-label="风筝人" aria-describedby="desc-7"></a>
+        <a class="sri" href="https://tule12138.github.io/theUnpublished/post/%E9%A3%8E%E7%AD%9D%E4%BA%BA/" aria-label="风筝人" aria-describedby="desc-7"></a>
         
         <section class="has-cover">
-                <img class="flowlines" src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/3.svg" alt="" style="object-position: 65% 63%" loading="lazy">
+                <img class="flowlines" src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/18.svg" alt="" style="object-position: 28% 49%" loading="lazy">
             <div class="par" id="desc-7">或许并不典型的家庭记录。
             </div>
         </section>
@@ -520,7 +524,7 @@
             </span>
             
                     <!-- terms.html -->
-    <ul class="rounded invert ldots" role="presentation">
+    <ul class="rounded invert" role="presentation">
             <li><a href="https://tule12138.github.io/theUnpublished/tags/%E7%94%9F%E6%B4%BB/" tabindex="-1">生活</a></li>
             <li><a href="https://tule12138.github.io/theUnpublished/tags/%E5%AE%B6%E5%BA%AD/" tabindex="-1">家庭</a></li>
     </ul>
@@ -548,14 +552,14 @@
         <time class="doc-publish-date" datetime="2024-01-18T00:00:00&#43;00:00" data-time-label="Published on">January 18, 2024</time>
     </div>
             </div>
-            <a href="https://tule12138.github.io/theUnpublished/post/%E7%A9%BA%E4%B9%98/" tabindex="-1">
+            <a href="https://tule12138.github.io/theUnpublished/post/%E7%A9%BA%E4%B9%98/" class="sr0" tabindex="-1" aria-describedby="desc-8">
                 <h1 id="title-8">空乘</h1>
             </a>
         </hgroup>
-        <a class="underline" href="https://tule12138.github.io/theUnpublished/post/%E7%A9%BA%E4%B9%98/" aria-label="空乘" aria-describedby="desc-8"></a>
+        <a class="sri" href="https://tule12138.github.io/theUnpublished/post/%E7%A9%BA%E4%B9%98/" aria-label="空乘" aria-describedby="desc-8"></a>
         
         <section class="has-cover">
-                <img class="flowlines" src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/10.svg" alt="" style="object-position: 15% 47%" loading="lazy">
+                <img class="flowlines" src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/2.svg" alt="" style="object-position: 17% 26%" loading="lazy">
             <div class="par" id="desc-8">刚开始写的时候没觉得，但是写着写着发现其实在写来自远方里的女机长。
             </div>
         </section>
@@ -565,7 +569,7 @@
             </span>
             
                     <!-- terms.html -->
-    <ul class="rounded invert ldots" role="presentation">
+    <ul class="rounded invert" role="presentation">
             <li><a href="https://tule12138.github.io/theUnpublished/tags/come-from-away/" tabindex="-1">Come From Away</a></li>
     </ul>
         </footer>
@@ -592,14 +596,14 @@
         <time class="doc-publish-date" datetime="2023-12-03T00:00:00&#43;00:00" data-time-label="Published on">December 3, 2023</time>
     </div>
             </div>
-            <a href="https://tule12138.github.io/theUnpublished/post/%E5%91%95%E5%90%90%E7%89%A9/" tabindex="-1">
+            <a href="https://tule12138.github.io/theUnpublished/post/%E5%91%95%E5%90%90%E7%89%A9/" class="sr0" tabindex="-1" aria-describedby="desc-9">
                 <h1 id="title-9">呕吐物</h1>
             </a>
         </hgroup>
-        <a class="underline" href="https://tule12138.github.io/theUnpublished/post/%E5%91%95%E5%90%90%E7%89%A9/" aria-label="呕吐物" aria-describedby="desc-9"></a>
+        <a class="sri" href="https://tule12138.github.io/theUnpublished/post/%E5%91%95%E5%90%90%E7%89%A9/" aria-label="呕吐物" aria-describedby="desc-9"></a>
         
         <section class="has-cover">
-                <img class="flowlines" src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/12.svg" alt="" style="object-position: 3% 57%" loading="lazy">
+                <img class="flowlines" src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/10.svg" alt="" style="object-position: 15% 50%" loading="lazy">
             <div class="par" id="desc-9">写作是……呕吐。
             </div>
         </section>
@@ -609,7 +613,7 @@
             </span>
             
                     <!-- terms.html -->
-    <ul class="rounded invert ldots" role="presentation">
+    <ul class="rounded invert" role="presentation">
             <li><a href="https://tule12138.github.io/theUnpublished/tags/%E5%86%99%E4%BD%9C/" tabindex="-1">写作</a></li>
             <li><a href="https://tule12138.github.io/theUnpublished/tags/%E4%B8%AA%E4%BA%BA%E5%8F%B2/" tabindex="-1">个人史</a></li>
     </ul>
@@ -637,14 +641,14 @@
         <time class="doc-publish-date" datetime="2023-11-29T00:00:00&#43;00:00" data-time-label="Published on">November 29, 2023</time>
     </div>
             </div>
-            <a href="https://tule12138.github.io/theUnpublished/post/%E6%A3%AE%E6%9E%97%E5%90%8E%E6%97%A5%E8%B0%88/" tabindex="-1">
+            <a href="https://tule12138.github.io/theUnpublished/post/%E6%A3%AE%E6%9E%97%E5%90%8E%E6%97%A5%E8%B0%88/" class="sr0" tabindex="-1" aria-describedby="desc-10">
                 <h1 id="title-10">森林后日谈</h1>
             </a>
         </hgroup>
-        <a class="underline" href="https://tule12138.github.io/theUnpublished/post/%E6%A3%AE%E6%9E%97%E5%90%8E%E6%97%A5%E8%B0%88/" aria-label="森林后日谈" aria-describedby="desc-10"></a>
+        <a class="sri" href="https://tule12138.github.io/theUnpublished/post/%E6%A3%AE%E6%9E%97%E5%90%8E%E6%97%A5%E8%B0%88/" aria-label="森林后日谈" aria-describedby="desc-10"></a>
         
         <section class="has-cover">
-                <img class="flowlines" src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/15.svg" alt="" style="object-position: 14% 32%" loading="lazy">
+                <img class="flowlines" src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/8.svg" alt="" style="object-position: 64% 68%" loading="lazy">
             <div class="par" id="desc-10">和鬼魂生活在一起的世界。
             </div>
         </section>
@@ -654,7 +658,7 @@
             </span>
             
                     <!-- terms.html -->
-    <ul class="rounded invert ldots" role="presentation">
+    <ul class="rounded invert" role="presentation">
             <li><a href="https://tule12138.github.io/theUnpublished/tags/%E5%86%99%E4%BD%9C/" tabindex="-1">写作</a></li>
             <li><a href="https://tule12138.github.io/theUnpublished/tags/kentucky-route-zero/" tabindex="-1">Kentucky Route Zero</a></li>
     </ul>
@@ -668,10 +672,10 @@
         <span>Pagination</span>
     </summary>
         <nav aria-labelledby="pagination">
-            <ul role="presentation" class="pagination">
+            <ul role="presentation" class="pagination ">
                     <!-- paginator.html -->
     <li class="lfill">
-        <a class="underline" href="https://tule12138.github.io/theUnpublished/stage/%E5%AE%8C%E7%A8%BF/page/2/" rel="next">
+        <a href="https://tule12138.github.io/theUnpublished/stage/%E5%AE%8C%E7%A8%BF/page/2/" rel="next">
             <span>Next</span>
         </a>
     </li>
@@ -680,7 +684,12 @@
 </details>
             </section>
         <!-- main/footer.html -->
-    
+    <hr class="hide">
+    <footer id="main-footer">
+            <div id="unified-footer">
+                        <p id="coffee-counter">Made with ❤️ and 900 cups of coffee, if not more.</p>
+            </div>
+    </footer>
     </main>
     <!-- footer.html -->
 <footer id="body-footer" class="pagewidth" style="display: none;">
@@ -695,6 +704,8 @@
     </summary>
     <!-- a11y console -->
     <fieldset id="a11y" role="region" aria-label="Accessibility"
+        data-i18n-optimizeSR="Screen Reader Optimization"
+        data-i18n-optimizeSRdesc="Optimize display and resources for screen reader users who navigate with a pointer device."
         data-i18n-colorSettings="Color Settings"
         data-i18n-darkMode="Dark Mode"
         data-i18n-light="Light"
@@ -710,7 +721,7 @@
         data-i18n-tritanopia="Tritanopia"
         data-i18n-monochrome="Monochrome"
         data-i18n-fontSize="Font Size"
-        data-i18n-baselineStretch="Baseline Stretch"        
+        data-i18n-baselineStretch="Baseline Stretch"
         data-i18n-OpenDyslexic="Use OpenDyslexic Font"
         data-i18n-menuControls="Accessibility Menu Controls"
         data-i18n-save="Save"
@@ -719,18 +730,16 @@
         data-i18n-bionRead="BionRead Mode"
         data-i18n-focusMode="Focus Mode"
         data-i18n-noLocalStorage="LocalStorage is not available in your browser. Settings won&#39;t be saved.">
-        <noscript>
-            <center id="noScript" role="alert">Uh-oh... Javascript is disabled!</center>
-        </noscript>
     </fieldset>
     <div class="screening js-cpn" role="presentation" aria-hidden="true"></div>
 </details>
 
 
-    <div id="useBionRead"></div>
+    <div id="useBionRead" class="sri"></div>
     <!-- [top] bypass block -->
     <nav aria-label="Bypass">
-        <a id="to-top" href="#top" title="To Content Top" accesskey="c" aria-keyshortcuts="c" aria-label="To Content Top">
+        <a id="to-top" class="srm" href="#top" title="To Content Top" accesskey="c" aria-keyshortcuts="c" aria-label="To Content Top">
+            <span class="t srt">To Content Top</span>
             <kbd class="key" aria-hidden="true">c</kbd>
         </a>
     </nav>
@@ -749,5 +758,4 @@
             </div>
         </div>
     </div>
-</body>
 </html>

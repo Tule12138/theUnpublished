@@ -28,10 +28,14 @@
     <meta property="og:url" content="https://tule12138.github.io/theUnpublished/tags/%E8%80%83%E8%AF%95/" />
         <meta property="og:image" content="https://repository-images.githubusercontent.com/923527728/46a32a19-69ac-45b3-91a4-c4d299fb234b" />
     <meta property="og:site_name" content="theUnpublished" /><link rel="alternate" type="application/rss+xml" href="https://tule12138.github.io/theUnpublished/tags/%E8%80%83%E8%AF%95/index.xml" title="theUnpublished" />
-    <!-- js.html --><script src="https://tule12138.github.io/theUnpublished/js/hugo-brewm.min.js"
-            integrity="sha384-kQnNpyfU4BDSjOYjkjuVdA8tiAQ/qnRKgYy1Rr43xJOk0QDspxIZrZxwWu5KSFTs" crossorigin="anonymous"
+    <!-- js.html -->
+
+<script src="https://tule12138.github.io/theUnpublished/js/hugo-brewm.min.js"
+            integrity="sha384-zouA7CpmNb/gx3lz2G4azvKsS1ZKJnHvV72/9lqO2hHiOsQfsgpB96wv47H43h8o" crossorigin="anonymous"
             defer></script><!-- css.html -->
-        <link rel="stylesheet" href="https://tule12138.github.io/theUnpublished/css/hugo-brewm.min.css" integrity="sha256-1RsJ5qa/N0TsXBn9iD3zdhGT1ZOxuCC&#43;Mef5seSMUXI=" crossorigin="anonymous">
+
+
+        <link rel="stylesheet" href="https://tule12138.github.io/theUnpublished/css/hugo-brewm.min.css" integrity="sha256-FrNcz6gS65xIUh3CCIvFhmP75yQ7SZFA2YF&#43;y&#43;/79dM=" crossorigin="anonymous">
 
     <!-- css/inline.html -->
     <style>
@@ -49,14 +53,14 @@
     </div>
     
     <nav aria-label="Bypass">
-        <a id="to-content" class="underline" href="#list-posts" aria-label="Skip to Main Content">
+        <a id="to-content" href="#list-posts" aria-label="Skip to Main Content">
             <span>Skip to Main Content</span>
             <kbd class="key" aria-hidden="true">c</kbd>
             <span class="screening" aria-hidden="true"></span>
         </a>
     </nav>
     
-        <a id="logo" href="https://tule12138.github.io/theUnpublished/" aria-label="theUnpublished">
+        <a id="logo" href="https://tule12138.github.io/theUnpublished/" aria-label="theUnpublished" aria-description="Homepage">
                 <!-- logotype.html --><svg id="logotype" xmlns="http://www.w3.org/2000/svg" version="1.1" width="392pt" aria-label="theUnpublished">
             <text id="logotype__text" y="19.5pt" x="0">theUnpublished</text>
         </svg>
@@ -69,14 +73,14 @@
         </summary>
         <nav tabindex="-1" aria-label="Top">
             <!-- menu.html -->
-<details id="has-main-menu" class="presentation" open>
-    <summary  class="hide"  aria-label="Main Menu">
-        <span>Main Menu</span>
-    </summary>
-        
-        <nav id="main-menu" aria-label="Main Menu">
-            <ul class="l1   has-childfree " role="presentation" tabindex="-1" >
-                
+    <details id="has-main-menu" class="presentation" open>
+        <summary  class="hide"  aria-label="Main Menu">
+            <span>Main Menu</span>
+        </summary>
+            
+            <nav id="main-menu" aria-label="Main Menu">
+                <ul class="l1   has-childfree " role="presentation" tabindex="-1" >
+                    
     
         <li role="presentation" >
     <a   class=on-deck href=https://tule12138.github.io/theUnpublished/post/>
@@ -92,13 +96,13 @@
                 这里</span>
     </a>
         </li>
-            </ul>
-        </nav>
-</details>
+                </ul>
+            </nav>
+    </details>
             <!-- search.html -->
 <details id="has-search" class="presentation js-details" name="on-deck">
-    <summary class="on-deck" accesskey="q" aria-keyshortcuts="q">
-        <span class="t t2">Search</span>
+    <summary class="on-deck srm" accesskey="q" aria-labelledby="search-label" aria-keyshortcuts="q">
+        <span id="search-label" class="t t2 srt">Search</span>
     </summary>
     
         <!-- pagefind.html -->
@@ -117,6 +121,11 @@
                         placeholder: "Search"
                     }
                 });
+                
+                const pFInput = document.querySelector('.pagefind-ui__search-input');
+                if (pFInput) {
+                    pFInput.setAttribute('aria-label', pFInput.getAttribute('placeholder'));
+                }
                 pageFindInitialized = true;
                 document.removeEventListener('DOMContentLoaded', initPageFind);
             }
@@ -142,6 +151,7 @@
         </noscript>
     
 </details>
+
             <!-- menu.html -->
             <!-- i18n.html -->
 
@@ -156,28 +166,22 @@
         <!-- main/header.html -->
         <header class="pagewidth">
             
-            <!-- menu.html -->
-    <menu role="presentation">
-        <li>
-            <a id="print-button" class="hide" href="javascript:window.print()" title="Print" role="button" aria-label="Print">
-                <span class="t" role="tooltip">Print</span>
-            </a>
-        </li>
-        <li>
-            <a id="navigatorShare" href="javascript:navigator.share({title: document.title, url: window.location.href})" title="Share" role="button" aria-label="Share">
-                <span class="t" role="tooltip">Share</span>
-            </a>
-        </li>
-        <li>
-            <a id="copyPermalink" class="hide" href="javascript:navigator.clipboard.writeText(window.location.href)" title="Copy URL" role="button" aria-label="Copy URL">
-                <span id="copy" class="t" role="tooltip">Copy URL</span>
-                <span id="isCopying" style="display: none;">Copying...</span>
-                <span id="copyText" style="display: none;">Copy URL</span>
-            </a>
-        </li>
+                <!-- menu.html -->
+    <menu class="srm">
+        <a id="print-button" class="hide" href="javascript:window.print()" role="button" aria-label="Print">
+            <span class="t srt" role="tooltip">Print</span>
+        </a>
+        <a id="navigatorShare" href="javascript:navigator.share({title: document.title, url: window.location.href})" role="button" aria-label="Share">
+            <span class="t srt" role="tooltip">Share</span>
+        </a>
+        <a id="copyPermalink" class="hide" href="javascript:navigator.clipboard.writeText(window.location.href)" role="button" aria-label="Copy URL">
+            <span id="copy" class="t srt" role="tooltip">Copy URL</span>
+            <span id="isCopying" style="display: none;">Copying...</span>
+            <span id="copyText" style="display: none;">Copy URL</span>
+        </a>
     </menu>
     <button id="back" class="hide" type="button" onclick="history.back();" aria-label="Go Back">
-        <span class="t" role="tooltip">Go Back</span>
+        <span class="t srt" role="tooltip">Go Back</span>
     </button>
             
                 <!-- nav.html -->
@@ -186,7 +190,7 @@
         <span>Breadcrumb</span>
     </summary>
         <nav aria-labelledby="breadcrumb">
-            <ul role="presentation" class="breadcrumb">
+            <ul role="presentation" class="breadcrumb ">
                     <!-- breadcrumb.html -->
         <li>
             <a href="https://tule12138.github.io/theUnpublished/tags/" aria-current="true">Tags
@@ -204,7 +208,7 @@
             
         </div>
         
-            
+        
             <section id="list-posts" class="pagewidth"  aria-labelledby="list-post-heading">
                 <header id="tag" class="section-title">
                     <strong id="list-post-heading">Posts on: <span class="tag">考试</span>
@@ -233,14 +237,14 @@
         <time class="doc-publish-date" datetime="2023-10-22T00:00:00&#43;00:00" data-time-label="Published on">October 22, 2023</time>
     </div>
             </div>
-            <a href="https://tule12138.github.io/theUnpublished/post/ielts%E8%AE%B0%E5%BD%95/" tabindex="-1">
+            <a href="https://tule12138.github.io/theUnpublished/post/ielts%E8%AE%B0%E5%BD%95/" class="sr0" tabindex="-1" aria-describedby="desc-1">
                 <h1 id="title-1">IELTS 记录</h1>
             </a>
         </hgroup>
-        <a class="underline" href="https://tule12138.github.io/theUnpublished/post/ielts%E8%AE%B0%E5%BD%95/" aria-label="IELTS 记录" aria-describedby="desc-1"></a>
+        <a class="sri" href="https://tule12138.github.io/theUnpublished/post/ielts%E8%AE%B0%E5%BD%95/" aria-label="IELTS 记录" aria-describedby="desc-1"></a>
         
         <section class="has-cover">
-                <img class="flowlines" src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/10.svg" alt="" style="object-position: 67% 8%" loading="lazy">
+                <img class="flowlines" src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/6.svg" alt="" style="object-position: 68% 46%" loading="lazy">
             <div class="par" id="desc-1">非常小的一个问题，非常小的一个解决方案。
             </div>
         </section>
@@ -250,7 +254,7 @@
             </span>
             
                     <!-- terms.html -->
-    <ul class="rounded invert ldots" role="presentation">
+    <ul class="rounded invert" role="presentation">
             <li><a href="https://tule12138.github.io/theUnpublished/tags/ielts/" tabindex="-1">IELTS</a></li>
             <li><a href="https://tule12138.github.io/theUnpublished/tags/%E8%80%83%E8%AF%95/" tabindex="-1">考试</a></li>
             <li><a href="https://tule12138.github.io/theUnpublished/tags/%E7%95%99%E5%AD%A6/" tabindex="-1">留学</a></li>
@@ -262,7 +266,12 @@
                     
             </section>
         <!-- main/footer.html -->
-    
+    <hr class="hide">
+    <footer id="main-footer">
+            <div id="unified-footer">
+                        <p id="coffee-counter">Made with ❤️ and 900 cups of coffee, if not more.</p>
+            </div>
+    </footer>
     </main>
     <!-- footer.html -->
 <footer id="body-footer" class="pagewidth" style="display: none;">
@@ -277,6 +286,8 @@
     </summary>
     <!-- a11y console -->
     <fieldset id="a11y" role="region" aria-label="Accessibility"
+        data-i18n-optimizeSR="Screen Reader Optimization"
+        data-i18n-optimizeSRdesc="Optimize display and resources for screen reader users who navigate with a pointer device."
         data-i18n-colorSettings="Color Settings"
         data-i18n-darkMode="Dark Mode"
         data-i18n-light="Light"
@@ -292,7 +303,7 @@
         data-i18n-tritanopia="Tritanopia"
         data-i18n-monochrome="Monochrome"
         data-i18n-fontSize="Font Size"
-        data-i18n-baselineStretch="Baseline Stretch"        
+        data-i18n-baselineStretch="Baseline Stretch"
         data-i18n-OpenDyslexic="Use OpenDyslexic Font"
         data-i18n-menuControls="Accessibility Menu Controls"
         data-i18n-save="Save"
@@ -301,18 +312,16 @@
         data-i18n-bionRead="BionRead Mode"
         data-i18n-focusMode="Focus Mode"
         data-i18n-noLocalStorage="LocalStorage is not available in your browser. Settings won&#39;t be saved.">
-        <noscript>
-            <center id="noScript" role="alert">Uh-oh... Javascript is disabled!</center>
-        </noscript>
     </fieldset>
     <div class="screening js-cpn" role="presentation" aria-hidden="true"></div>
 </details>
 
 
-    <div id="useBionRead"></div>
+    <div id="useBionRead" class="sri"></div>
     <!-- [top] bypass block -->
     <nav aria-label="Bypass">
-        <a id="to-top" href="#top" title="To Content Top" accesskey="c" aria-keyshortcuts="c" aria-label="To Content Top">
+        <a id="to-top" class="srm" href="#top" title="To Content Top" accesskey="c" aria-keyshortcuts="c" aria-label="To Content Top">
+            <span class="t srt">To Content Top</span>
             <kbd class="key" aria-hidden="true">c</kbd>
         </a>
     </nav>
@@ -331,5 +340,4 @@
             </div>
         </div>
     </div>
-</body>
 </html>
