@@ -1,6 +1,6 @@
 # 名侦探柯南 TV 推荐
 +++
-author = ["小林"]
+author = "小林"
 title = "名侦探柯南 TV 推荐"
 description = ""
 date = "2025-02-08"

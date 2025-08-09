@@ -1,5 +1,5 @@
 +++
-author = ["小林"]
+author = "小林"
 title = "Apple 购买考量"
 description = "换电脑考量。"
 date = "2025-03-22"

@@ -1,5 +1,5 @@
 +++
-author = ["小林"]
+author = "小林"
 title = "IELTS 记录"
 description = "非常小的一个问题，非常小的一个解决方案。"
 date = "2023-10-22"

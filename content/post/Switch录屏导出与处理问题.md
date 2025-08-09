@@ -1,5 +1,5 @@
 +++
-author = ["小林"]
+author = "小林"
 title = "Switch 录屏导出与处理问题"
 description = "非常小的一个问题，非常小的一个解决方案。"
 date = "2025-02-20"

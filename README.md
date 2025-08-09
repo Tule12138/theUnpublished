@@ -44,7 +44,7 @@ Q: 修改了 rss 设置一会看
 有点搞明白了，这个主题 [brewm](https://github.com/foxihd/hugo-brewm) 要实现 90% 需要以下 front matter：
 ```
 +++
-author = ["作者名字"]
+author = "作者名字"
 title = "文章标题"
 description = "简介"
 date = "日期"

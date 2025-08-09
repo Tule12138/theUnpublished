@@ -1,5 +1,5 @@
 +++
-author = ["小林"]
+author = "小林"
 title = "Mama, is it just now, or is it always like that?"
 description = "如题。"
 date = "2023-08-28"

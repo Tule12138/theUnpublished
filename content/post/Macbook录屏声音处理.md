@@ -1,5 +1,5 @@
 +++
-author = ["小林"]
+author = "小林"
 title = "Macbook 录屏声音处理"
 description = "自用解决方案"
 date = "2025-03-29"
