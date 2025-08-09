@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Series on theUnpublished</title>
-    <link>https://tule12138.github.io/theUnpublished/series/</link>
+    <link>http://localhost:1313/theUnpublished/series/</link>
     <description>Recent Posts in Series on theUnpublished</description>
     <generator>Hugo 0.147.5</generator>
     <language>en</language>
     <managingEditor>小林</managingEditor>
     
       <webMaster>小林</webMaster>
-    <lastBuildDate>Sat, 09 Aug 2025 16:47:23 +0100</lastBuildDate>
-    <atom:link href="https://tule12138.github.io/theUnpublished/series/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 09 Aug 2025 16:49:15 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/theUnpublished/series/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

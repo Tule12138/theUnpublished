@@ -1,4 +1,4 @@
-Sitemap: https://tule12138.github.io/theUnpublished/sitemap.xml
+Sitemap: http://localhost:1313/theUnpublished/sitemap.xml
 User-agent: *
 Disallow:
 User-agent: AI2Bot
