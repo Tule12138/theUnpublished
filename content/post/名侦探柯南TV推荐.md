@@ -2,7 +2,7 @@
 author = "小林"
 title = "名侦探柯南 TV 推荐"
 description = ""
-date = "2025-02-08"
+date = "2025-08-10"
 type = "post"
 draft = false
 translationKey = "history"

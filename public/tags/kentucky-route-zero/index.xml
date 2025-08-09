@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kentucky Route Zero on theUnpublished</title>
+    <link>http://localhost:1313/theUnpublished/tags/kentucky-route-zero/</link>
+    <description>Recent Posts in Kentucky Route Zero on theUnpublished</description>
+    <generator>Hugo 0.147.5</generator>
+    <language>en</language>
+    <managingEditor>小林</managingEditor>
+    
+      <webMaster>小林</webMaster>
+    <lastBuildDate>Sat, 09 Aug 2025 16:50:23 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/theUnpublished/tags/kentucky-route-zero/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>森林后日谈</title>
+      <link>http://localhost:1313/theUnpublished/post/%E6%A3%AE%E6%9E%97%E5%90%8E%E6%97%A5%E8%B0%88/</link>
+      <pubDate>Wed, 29 Nov 2023 00:00:00 +0000</pubDate>
+      <author>小林</author>
+      <guid>http://localhost:1313/theUnpublished/post/%E6%A3%AE%E6%9E%97%E5%90%8E%E6%97%A5%E8%B0%88/</guid>
+      <description></description>
+      
+    </item>
+  </channel>
+</rss>

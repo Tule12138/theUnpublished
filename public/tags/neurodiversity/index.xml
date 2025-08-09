@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NeuroDiversity on theUnpublished</title>
+    <link>http://localhost:1313/theUnpublished/tags/neurodiversity/</link>
+    <description>Recent Posts in NeuroDiversity on theUnpublished</description>
+    <generator>Hugo 0.147.5</generator>
+    <language>en</language>
+    <managingEditor>小林</managingEditor>
+    
+      <webMaster>小林</webMaster>
+    <lastBuildDate>Sat, 09 Aug 2025 16:50:23 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/theUnpublished/tags/neurodiversity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>注意力，阈值与自诊</title>
+      <link>http://localhost:1313/theUnpublished/post/%E6%B3%A8%E6%84%8F%E5%8A%9B%E9%98%88%E5%80%BC%E4%B8%8E%E8%87%AA%E8%AF%8A/</link>
+      <pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate>
+      <author>小林</author>
+      <guid>http://localhost:1313/theUnpublished/post/%E6%B3%A8%E6%84%8F%E5%8A%9B%E9%98%88%E5%80%BC%E4%B8%8E%E8%87%AA%E8%AF%8A/</guid>
+      <description></description>
+      
+    </item>
+  </channel>
+</rss>

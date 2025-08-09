@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>个人史 on theUnpublished</title>
+    <link>http://localhost:1313/theUnpublished/tags/%E4%B8%AA%E4%BA%BA%E5%8F%B2/</link>
+    <description>Recent Posts in 个人史 on theUnpublished</description>
+    <generator>Hugo 0.147.5</generator>
+    <language>en</language>
+    <managingEditor>小林</managingEditor>
+    
+      <webMaster>小林</webMaster>
+    <lastBuildDate>Sat, 09 Aug 2025 16:50:23 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/theUnpublished/tags/%E4%B8%AA%E4%BA%BA%E5%8F%B2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>在克莱因瓶的哪一面生活</title>
+      <link>http://localhost:1313/theUnpublished/post/%E5%9C%A8%E5%85%8B%E8%8E%B1%E5%9B%A0%E7%93%B6%E7%9A%84%E5%93%AA%E4%B8%80%E9%9D%A2%E7%94%9F%E6%B4%BB/</link>
+      <pubDate>Mon, 21 Jul 2025 00:00:00 +0000</pubDate>
+      <author>小林</author>
+      <guid>http://localhost:1313/theUnpublished/post/%E5%9C%A8%E5%85%8B%E8%8E%B1%E5%9B%A0%E7%93%B6%E7%9A%84%E5%93%AA%E4%B8%80%E9%9D%A2%E7%94%9F%E6%B4%BB/</guid>
+      <description></description>
+      
+    </item>
+    <item>
+      <title>呕吐物</title>
+      <link>http://localhost:1313/theUnpublished/post/%E5%91%95%E5%90%90%E7%89%A9/</link>
+      <pubDate>Sun, 03 Dec 2023 00:00:00 +0000</pubDate>
+      <author>小林</author>
+      <guid>http://localhost:1313/theUnpublished/post/%E5%91%95%E5%90%90%E7%89%A9/</guid>
+      <description></description>
+      
+    </item>
+  </channel>
+</rss>

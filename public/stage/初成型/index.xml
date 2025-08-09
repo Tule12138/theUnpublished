@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>初成型 on theUnpublished</title>
+    <link>http://localhost:1313/theUnpublished/stage/%E5%88%9D%E6%88%90%E5%9E%8B/</link>
+    <description>Recent Posts in 初成型 on theUnpublished</description>
+    <generator>Hugo 0.147.5</generator>
+    <language>en</language>
+    <managingEditor>小林</managingEditor>
+    
+      <webMaster>小林</webMaster>
+    <lastBuildDate>Sat, 09 Aug 2025 16:50:23 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/theUnpublished/stage/%E5%88%9D%E6%88%90%E5%9E%8B/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
