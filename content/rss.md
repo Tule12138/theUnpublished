@@ -1,14 +1,13 @@
 ---
 type: 'slide'
-title: 'Hugo Release News'
+title: 'RSS'
 params:
     headless: true
     alias: 'https://github.com/foxihd/hugo-brewm'
 ---
 
-This is a slide with RSS feed.
-RSS shortcodes allow you to integrate and display feeds from various sources like YouTube channels or external blogs.
+RSS 订阅还在施工中。
 
-Note that The Hugo Release News RSS feed listed below displays only titles since content descriptions are not included in the RSS feed xml.
+以下是没有被 RSS 抓取的文章（全部）。
 
 {{< rss url="https://tule12138.github.io/theUnpublished/index.xml" >}}

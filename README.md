@@ -9,6 +9,11 @@
 
 ## 发布与更新
 
+本地查看预览：
+```
+hugo server
+```
+
 发布 readme 等到 main 分支：
 ```
 cd main对应的文件夹
