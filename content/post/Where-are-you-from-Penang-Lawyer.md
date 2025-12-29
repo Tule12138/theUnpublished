@@ -3,7 +3,7 @@
 author = "小林"
 title = "Where are you from, Penang Lawyer?"
 description = "Penang Lawyer溯源"
-date = "2025-12-28"
+date = "2025-12-29"
 type = "post"
 draft = false
 translationKey = "history"
@@ -12,7 +12,7 @@ tags = ["写作", "历史", "推理"]
 categories = ["随笔"]
 stage = "完稿"
 history = [
-  {date = "2025-12-28", stage="完稿", author = "小林", reviewer = "", note = ""},
+  {date = "2025-12-29", stage="完稿", author = "小林", reviewer = "", note = ""},
 ]
 toot = ""
 +++
