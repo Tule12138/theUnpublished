@@ -50,27 +50,7 @@ A: 先 fork 一下，然后改主题时推送到子仓库，再更新主仓库
 ### front matter
 
 有点搞明白了，这个主题 [brewm](https://github.com/foxihd/hugo-brewm) 要实现 90% 需要以下 front matter：
-```
-+++
-author = "作者名字"
-title = "文章标题"
-description = "简介"
-date = "日期"
-type = "post"
-draft = false
-translationKey = "history"
-coffee = 1
-tags = ["标签1", "标签2", "标签3"]
-categories = ["分类"]
-stage = "文章阶段（写作与修订进度），设置了一下晚点测试"
-history = [
-  {date = "2025-02-01", stage="草稿", author = "Author Name", reviewer = "Reviewer Name", note = "Example"},
-  {date = "2025-02-02", stage="初成型", author = "Author Name", editor = "Editor Name", note = "Addendum (example)"},
-  {date = "2025-02-03", stage="完稿/待修订", note = "Errata (example)"},
-]
-toot = "https://fediversepost/"
-+++
-```
+
 关于博文里 feditoot 的链接，上次七月份更新之后加了个链接进去，等下次更新之后我看下效果。
 
 ### 作者介绍（或者其它）
