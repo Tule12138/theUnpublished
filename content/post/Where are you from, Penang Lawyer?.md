@@ -3,7 +3,7 @@
 author = "小林"
 title = "Where are you from, Penang Lawyer?"
 description = "Penang Lawyer溯源"
-date = "2025-12-29"
+date = "2025-12-28"
 type = "post"
 draft = false
 translationKey = "history"
@@ -12,9 +12,9 @@ tags = ["写作", "历史", "推理"]
 categories = ["随笔"]
 stage = "完稿"
 history = [
-  {date = "2025-12-29", stage="完稿", author = "小林", reviewer = "", note = ""},
+  {date = "2025-12-28", stage="完稿", author = "小林", reviewer = "", note = ""},
 ]
-toot = "https://fediversepost/"
+toot = ""
 +++
 ```
 和其它殖民故事一样，英国海军军官在 1770 年代来到马来西亚时，也是为了建立贸易关系。Francis Light，受命于英国东印度公司，登陆马来西亚的吉打 (Kedah)。苏丹 (Sultan Muhammad Jiwa Zainal Adilin II) 在吉打统治槟城 (Penang) 与周边区域，当时正面临着暹罗、缅甸的外部威胁与其治下武吉斯人 (Burgis) 的叛乱。Light 代表英国向马来西亚出口的第一份商品是：军事支援。价格是马来西亚与英国的贸易窗口：槟城。[^7] 
