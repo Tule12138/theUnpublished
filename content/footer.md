@@ -7,11 +7,8 @@ params:
     target: 'https://github.com/foxihd/hugo-brewm'
 ---
 
-**Impressum**
-
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+这是一根横木。
 
 <br>
 
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+提醒你这里曾经是森林。
