@@ -52,7 +52,7 @@
 
 /* 各级标题*/
 #content h1, #content h2, #content h3, #content h4, #content h5, #content h6 {
-    font-family: "思源宋体", serif;
+    font-family: serif;
     font-weight: bold;
     font-style: italic;
     text-align: left;
