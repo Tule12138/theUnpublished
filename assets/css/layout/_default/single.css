@@ -3,18 +3,23 @@
     line-height: calc(var(--baselineStretch) * 1.618);
 }
 
+/*
 #main-article.sf h1 {
     font-weight: 700;
-}
+}*/
 
+/*
 #main-article.sf header time,
 #main-article.sf .subtitle,
 #main-article.sf #doc-author,
 #main-article.sf #doc-author a,
+#main-article.sf h1,
 #main-article.sf h2,
 #main-article.sf h3 {
     font-style: normal;
+    font-family: serif;
 }
+*/
 
 /* article frontmatter */
 
@@ -47,6 +52,15 @@
     opacity: 0.86;
     margin: 1ex 0 0;
     font-style: italic;
+}
+
+/* 各级标题*/
+#content h1, #content h2, #content h3, #content h4, #content h5, #content h6 {
+    font-family: "思源宋体", serif;
+    font-weight: bold;
+    font-style: italic;
+    text-align: left;
+    width: var(--golden-ratio);
 }
 
 #main-article [role=doc-credit],
@@ -181,12 +195,41 @@ header time {
     overflow-x: auto;
 }
 
-#content figure.fullwidth {
-    max-width: none;
+/* 表格宽度，仅针对正文内，不针对脚注 */
+#content > ul,
+#content > ol {
+    display: block;
+    margin: 0.618pc 0;
+    list-style-position: inside;
+    padding-left: 0;
+    box-sizing: border-box;   /* padding 不撑出宽度 */
+    width: var(--golden-ratio);          /* 不超过父容器宽度 */
 }
 
-#content p:not(:first-of-type) {
-    text-indent: var(--indent);
+/* 
+#content figure.fullwidth {
+    max-width: none;
+} 
+*/
+
+
+/* 原为 var(--indent)，未找到 indent 定义位置直接更改为 2em*/
+#content > p {
+    text-indent: 2em  !important; 
+}
+
+
+/* 引用块 */
+#content blockquote {
+    display: block;                 /* 块级元素 */
+    margin: 0.618pc 0;              /* 上下间距和正文一致 */
+    margin-left: 1em;
+    padding-left: 0.5em;    /* 左边留出缩进 */
+    border-left: 4px solid;      /* 左侧竖线 */
+    border-color: #e0e0e0;                     /* 可选，文字颜色稍淡 */
+    font-family: serif;
+    white-space: normal;            /* 自动换行 */
+    box-sizing: border-box;         /* padding 不撑宽度 */
 }
 
 #content p img {
