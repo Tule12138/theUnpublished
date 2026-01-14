@@ -3,12 +3,12 @@
     line-height: calc(var(--baselineStretch) * 1.618);
 }
 
-/*
+
 #main-article.sf h1 {
     font-weight: 700;
-}*/
+}
 
-/*
+
 #main-article.sf header time,
 #main-article.sf .subtitle,
 #main-article.sf #doc-author,
@@ -19,7 +19,7 @@
     font-style: normal;
     font-family: serif;
 }
-*/
+
 
 /* article frontmatter */
 
