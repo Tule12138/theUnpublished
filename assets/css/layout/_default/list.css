@@ -57,16 +57,13 @@ hr.ldots::after {
     width: unset;
 }
 
-#taxonomy #list-series,
-#taxonomy #list-categories {
-    display: unset;
-}
-
-#taxonomy #list-tags .section-title,
-#taxonomy #list-series .section-title,
-#taxonomy #list-categories .section-title {
+#taxonomy .carousel .section-title {
     margin: var(--bigskip) 0 var(--smallskip);
     writing-mode: unset;
+}
+
+.carousel + .carousel {
+    margin-top: 2rem;
 }
 
 #has-pagination {
@@ -103,9 +100,14 @@ hr.ldots::after {
     list-style: none;
 }
 
+.list-month > summary::after {
+    margin-left: 1ex;
+}
+
 .list-day a {
     display: block;
     margin: 1ex 1rem;
+    border: none;
     padding: 1ex 0;
     width: 100%;
     font-size: var(--normalsize);
