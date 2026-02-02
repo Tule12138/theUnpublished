@@ -1,6 +1,11 @@
 
 {
     "nodes": [{
+                "id": "9f1ae7017cab9e55d5c8e761f80e76d6",
+                "title": "记账工具演化录",
+                "permalink": "https://tule12138.github.io/theUnpublished/post/%E8%AE%B0%E8%B4%A6%E5%B7%A5%E5%85%B7%E6%BC%94%E5%8C%96%E5%BD%95/",
+                "type": "post"
+            },{
                 "id": "ae935a03146744e60ea4873e7b6ab00f",
                 "title": "2026 开年阅读回顾",
                 "permalink": "https://tule12138.github.io/theUnpublished/post/2026%E5%BC%80%E5%B9%B4%E9%98%85%E8%AF%BB%E5%9B%9E%E9%A1%BE/",
@@ -49,11 +54,6 @@
                 "id": "8495677f51230e3be52e64c791723cd7",
                 "title": "Switch 录屏导出与处理问题",
                 "permalink": "https://tule12138.github.io/theUnpublished/post/switch%E5%BD%95%E5%B1%8F%E5%AF%BC%E5%87%BA%E4%B8%8E%E5%A4%84%E7%90%86%E9%97%AE%E9%A2%98/",
-                "type": "post"
-            },{
-                "id": "9f1ae7017cab9e55d5c8e761f80e76d6",
-                "title": "记账工具演化录",
-                "permalink": "https://tule12138.github.io/theUnpublished/post/%E8%AE%B0%E8%B4%A6%E5%B7%A5%E5%85%B7%E6%BC%94%E5%8C%96%E5%BD%95/",
                 "type": "post"
             },{
                 "id": "cf0dd2f4f93f87965e8004a7f34676e1",
@@ -421,6 +421,23 @@
     "links": [
             
                     {
+                        "source": "9f1ae7017cab9e55d5c8e761f80e76d6",
+                        "target": "categories-记录",
+                    },
+                    {
+                        "source": "9f1ae7017cab9e55d5c8e761f80e76d6",
+                        "target": "tags-工具",
+                    },
+                    {
+                        "source": "9f1ae7017cab9e55d5c8e761f80e76d6",
+                        "target": "tags-macbook",
+                    },
+                    {
+                        "source": "9f1ae7017cab9e55d5c8e761f80e76d6",
+                        "target": "tags-生活",
+                    },
+            
+                    {
                         "source": "ae935a03146744e60ea4873e7b6ab00f",
                         "target": "categories-后感",
                     },
@@ -556,23 +573,6 @@
                     {
                         "source": "8495677f51230e3be52e64c791723cd7",
                         "target": "tags-工具",
-                    },
-            
-                    {
-                        "source": "9f1ae7017cab9e55d5c8e761f80e76d6",
-                        "target": "categories-记录",
-                    },
-                    {
-                        "source": "9f1ae7017cab9e55d5c8e761f80e76d6",
-                        "target": "tags-工具",
-                    },
-                    {
-                        "source": "9f1ae7017cab9e55d5c8e761f80e76d6",
-                        "target": "tags-macbook",
-                    },
-                    {
-                        "source": "9f1ae7017cab9e55d5c8e761f80e76d6",
-                        "target": "tags-生活",
                     },
             
                     {
