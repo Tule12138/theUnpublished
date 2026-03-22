@@ -1,6 +1,11 @@
 
 {
     "nodes": [{
+                "id": "8099d1b803ef10c53ca46e3ad3c381cf",
+                "title": "2024-26：两年",
+                "permalink": "https://tule12138.github.io/theUnpublished/post/2024-26%E4%B8%A4%E5%B9%B4/",
+                "type": "post"
+            },{
                 "id": "9f1ae7017cab9e55d5c8e761f80e76d6",
                 "title": "记账工具演化录",
                 "permalink": "https://tule12138.github.io/theUnpublished/post/%E8%AE%B0%E8%B4%A6%E5%B7%A5%E5%85%B7%E6%BC%94%E5%8C%96%E5%BD%95/",
@@ -419,6 +424,27 @@
                         },
     ],
     "links": [
+            
+                    {
+                        "source": "8099d1b803ef10c53ca46e3ad3c381cf",
+                        "target": "categories-随笔",
+                    },
+                    {
+                        "source": "8099d1b803ef10c53ca46e3ad3c381cf",
+                        "target": "tags-个人史",
+                    },
+                    {
+                        "source": "8099d1b803ef10c53ca46e3ad3c381cf",
+                        "target": "tags-生活",
+                    },
+                    {
+                        "source": "8099d1b803ef10c53ca46e3ad3c381cf",
+                        "target": "tags-工",
+                    },
+                    {
+                        "source": "8099d1b803ef10c53ca46e3ad3c381cf",
+                        "target": "tags-留学",
+                    },
             
                     {
                         "source": "9f1ae7017cab9e55d5c8e761f80e76d6",
