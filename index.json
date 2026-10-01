@@ -1,11 +1,6 @@
 
 {
     "nodes": [{
-                "id": "987b419061e746e47332c29e14016906",
-                "title": "test 尸体里一颗心",
-                "permalink": "https://tule12138.github.io/theUnpublished/post/test/",
-                "type": "post"
-            },{
                 "id": "9f1ae7017cab9e55d5c8e761f80e76d6",
                 "title": "记账工具演化录",
                 "permalink": "https://tule12138.github.io/theUnpublished/post/%E8%AE%B0%E8%B4%A6%E5%B7%A5%E5%85%B7%E6%BC%94%E5%8C%96%E5%BD%95/",
@@ -111,7 +106,7 @@
                 "permalink": "https://tule12138.github.io/theUnpublished/post/%E7%A9%BA%E6%B0%94/",
                 "type": "post"
             },{
-                "id": "e32a64cd00f4cd189c5b712d671e4258",
+                "id": "81ba970cfc09583459bb4bb26182e6b5",
                 "title": "IELTS 记录",
                 "permalink": "https://tule12138.github.io/theUnpublished/post/ielts%E8%AE%B0%E5%BD%95/",
                 "type": "post"
@@ -151,8 +146,8 @@
                 "permalink": "https://tule12138.github.io/theUnpublished/post/%E7%96%BE%E7%97%85/",
                 "type": "post"
             },{
-                "id": "1391b08a1a822b594b717cecd8385071",
-                "title": "尸体里一颗心",
+                "id": "6505e0793cf668675e7ecc1af4ac30d1",
+                "title": "test 尸体里一颗心",
                 "permalink": "https://tule12138.github.io/theUnpublished/post/%E5%B0%B8%E4%BD%93%E9%87%8C%E4%B8%80%E9%A2%97%E5%BF%83/",
                 "type": "post"
             },{
@@ -429,15 +424,6 @@
                         },
     ],
     "links": [
-            
-                    {
-                        "source": "987b419061e746e47332c29e14016906",
-                        "target": "categories-随笔",
-                    },
-                    {
-                        "source": "987b419061e746e47332c29e14016906",
-                        "target": "tags-大学",
-                    },
             
                     {
                         "source": "9f1ae7017cab9e55d5c8e761f80e76d6",
@@ -725,23 +711,23 @@
                     },
             
                     {
-                        "source": "e32a64cd00f4cd189c5b712d671e4258",
+                        "source": "81ba970cfc09583459bb4bb26182e6b5",
                         "target": "categories-记录",
                     },
                     {
-                        "source": "e32a64cd00f4cd189c5b712d671e4258",
+                        "source": "81ba970cfc09583459bb4bb26182e6b5",
                         "target": "tags-ielts",
                     },
                     {
-                        "source": "e32a64cd00f4cd189c5b712d671e4258",
+                        "source": "81ba970cfc09583459bb4bb26182e6b5",
                         "target": "tags-考试",
                     },
                     {
-                        "source": "e32a64cd00f4cd189c5b712d671e4258",
+                        "source": "81ba970cfc09583459bb4bb26182e6b5",
                         "target": "tags-留学",
                     },
                     {
-                        "source": "e32a64cd00f4cd189c5b712d671e4258",
+                        "source": "81ba970cfc09583459bb4bb26182e6b5",
                         "target": "tags-案牍",
                     },
             
@@ -805,11 +791,11 @@
                     },
             
                     {
-                        "source": "1391b08a1a822b594b717cecd8385071",
+                        "source": "6505e0793cf668675e7ecc1af4ac30d1",
                         "target": "categories-随笔",
                     },
                     {
-                        "source": "1391b08a1a822b594b717cecd8385071",
+                        "source": "6505e0793cf668675e7ecc1af4ac30d1",
                         "target": "tags-大学",
                     },
             
