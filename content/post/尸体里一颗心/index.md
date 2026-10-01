@@ -2,7 +2,7 @@
 author = "小林"
 title = "test 尸体里一颗心"
 description = "活的身体完全死掉的灵魂，和死的制度里滚烫的心。"
-date = "2026-10-01"
+date = "2023-06-09"
 type = "post"
 draft = false
 translationKey = "history"
@@ -12,6 +12,7 @@ categories = ["随笔"]
 stage = "待修订"
 history = [
   {date = "2023-06-09", stage="完稿", author = "小林", reviewer = "", note = ""},
+  {date = "2026-10-01", stage="完稿", author = "小林", reviewer = "", note = "修复图片加载问题"},
 ]
 toot = ""
 +++

@@ -12,6 +12,7 @@ categories = ["记录"]
 stage = "完稿"
 history = [
   {date = "2023-10-22", stage="完稿", author = "小林", reviewer = "", note = ""},
+  {date = "2026-10-01", stage="完稿", author = "小林", reviewer = "", note = "修复图片加载问题"},
 ]
 toot = ""
 +++
