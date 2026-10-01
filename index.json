@@ -1,6 +1,11 @@
 
 {
     "nodes": [{
+                "id": "987b419061e746e47332c29e14016906",
+                "title": "test 尸体里一颗心",
+                "permalink": "https://tule12138.github.io/theUnpublished/post/test/",
+                "type": "post"
+            },{
                 "id": "9f1ae7017cab9e55d5c8e761f80e76d6",
                 "title": "记账工具演化录",
                 "permalink": "https://tule12138.github.io/theUnpublished/post/%E8%AE%B0%E8%B4%A6%E5%B7%A5%E5%85%B7%E6%BC%94%E5%8C%96%E5%BD%95/",
@@ -424,6 +429,15 @@
                         },
     ],
     "links": [
+            
+                    {
+                        "source": "987b419061e746e47332c29e14016906",
+                        "target": "categories-随笔",
+                    },
+                    {
+                        "source": "987b419061e746e47332c29e14016906",
+                        "target": "tags-大学",
+                    },
             
                     {
                         "source": "9f1ae7017cab9e55d5c8e761f80e76d6",
