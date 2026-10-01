@@ -1,6 +1,6 @@
 +++
 author = "小林"
-title = "test 尸体里一颗心"
+title = "尸体里一颗心"
 description = "活的身体完全死掉的灵魂，和死的制度里滚烫的心。"
 date = "2023-06-09"
 type = "post"
